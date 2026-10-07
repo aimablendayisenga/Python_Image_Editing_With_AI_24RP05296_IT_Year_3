@@ -1,0 +1,9 @@
+{
+  "blocks": 8,
+  "channels": 64,
+  "lr": 0.0005,
+  "epochs": 30,
+  "batch": 16,
+  "patch": 64,
+  "patches_per_epoch": 400
+}

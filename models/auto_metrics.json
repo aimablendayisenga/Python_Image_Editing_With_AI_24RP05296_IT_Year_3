@@ -1,0 +1,17 @@
+{
+  "blurry": {
+    "detection_rate": 0.967,
+    "task_success_rate": 0.233,
+    "mean_psnr_gain_db": 0.06
+  },
+  "noisy": {
+    "detection_rate": 1.0,
+    "task_success_rate": 0.567,
+    "mean_psnr_gain_db": 5.56
+  },
+  "dark": {
+    "detection_rate": 0.967,
+    "task_success_rate": 0.833,
+    "mean_psnr_gain_db": 5.24
+  }
+}

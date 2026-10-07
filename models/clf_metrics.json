@@ -1,0 +1,113 @@
+{
+  "accuracy": 0.9325,
+  "precision": 0.9344,
+  "recall": 0.9325,
+  "f1": 0.9321,
+  "confusion_matrix": [
+    [
+      84,
+      9,
+      0,
+      7
+    ],
+    [
+      0,
+      95,
+      0,
+      5
+    ],
+    [
+      0,
+      0,
+      100,
+      0
+    ],
+    [
+      4,
+      2,
+      0,
+      94
+    ]
+  ],
+  "classes": [
+    "sharp",
+    "blurry",
+    "noisy",
+    "dark"
+  ],
+  "seconds_per_image": 0.00203,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.9194,
+      "val_acc": 0.5575,
+      "val_f1": 0.523
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5568,
+      "val_acc": 0.8625,
+      "val_f1": 0.8604
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.4295,
+      "val_acc": 0.89,
+      "val_f1": 0.8891
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.3686,
+      "val_acc": 0.8975,
+      "val_f1": 0.8963
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.3242,
+      "val_acc": 0.91,
+      "val_f1": 0.9099
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.3101,
+      "val_acc": 0.9125,
+      "val_f1": 0.9125
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.2862,
+      "val_acc": 0.91,
+      "val_f1": 0.9094
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.2945,
+      "val_acc": 0.9025,
+      "val_f1": 0.9014
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.2576,
+      "val_acc": 0.9,
+      "val_f1": 0.9003
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.2473,
+      "val_acc": 0.9,
+      "val_f1": 0.901
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.2496,
+      "val_acc": 0.92,
+      "val_f1": 0.9197
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.2028,
+      "val_acc": 0.9325,
+      "val_f1": 0.9321
+    }
+  ]
+}
